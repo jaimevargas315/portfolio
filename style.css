@@ -1,14 +1,19 @@
 body {
+  /* background image has tiles that repeat across the page */
   background-image: url("background.jpg");
   background-repeat: repeat;
   background-position: center;
   margin: auto;
+  /* aligned all text to the center so there is even white space on both sides */
   text-align: center;
   font-size: 18px;
+  /* using multiple font families in case ones before them dont work */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* set max width so the content isnt too stretched out on large screens */
   max-width: 960px;
 }
 header{
+  /* create a box for the header by using a border, picked serif fonts because theyre better for titles */
   text-align: center;
   font-family:"Cambria Math", Times, serif;
   background-color:#cecece;
@@ -16,9 +21,13 @@ header{
 }
   
 img {
+  /*  set height and width for image so its dimensions look right */
   margin:auto;
   padding:auto;
+  height:300px;
+  width:180px;
 }
+/* adding style to links by changing colors based on action */
 a:link{
   color:green;
 }
